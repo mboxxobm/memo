@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.py[cod]
+*.mbox
+*.eml
+*.msf
+INBOX
+Thunderbird-Markdown/
