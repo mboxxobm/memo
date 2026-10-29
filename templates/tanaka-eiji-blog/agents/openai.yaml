@@ -1,0 +1,4 @@
+interface:
+  display_name: "ブログの語り口テンプレ（田中栄二風）"
+  short_description: "回想と脱線、自分へのツッコミを使って元の文章をブログに整える"
+  default_prompt: "$tanaka-eiji-blog を使って、以下の文章を事実を変えずにブログへ書き換えてください。"

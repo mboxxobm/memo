@@ -1,0 +1,8 @@
+{
+  "name": "blog-writing-template",
+  "private": true,
+  "type": "module",
+  "scripts": { "build:guide": "node scripts/build-guide.mjs" },
+  "dependencies": { "marked": "17.0.5" },
+  "engines": { "node": ">=20" }
+}

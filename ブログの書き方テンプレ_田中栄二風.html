@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<meta name="description" content="田中栄二さんの提供文をもとにした、回想・脱線・自分へのツッコミの分析とブログ執筆テンプレート。">
+<title>ブログの書き方テンプレ｜田中栄二風</title>
+<style>
+:root{--paper:#f7f5ef;--card:#fffefb;--ink:#25362f;--muted:#5e6b64;--line:#d8ddd4;--accent:#955137;--wash:#edf0e7;--serif:'Hiragino Mincho ProN','Yu Mincho',serif;--sans:-apple-system,BlinkMacSystemFont,'Hiragino Kaku Gothic ProN','Yu Gothic',Meiryo,sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:28px}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.9 var(--sans);overflow-wrap:anywhere}a{color:var(--accent);text-underline-offset:4px}button,input,select,textarea{font:inherit}button,a,input,select,textarea{ -webkit-tap-highlight-color:transparent}button{cursor:pointer}button:disabled{opacity:.45;cursor:default}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid var(--accent);outline-offset:4px}button,input,select,textarea{border-radius:6px}.skip{position:absolute;left:20px;top:-80px;z-index:9;padding:10px 18px;background:var(--card)}.skip:focus{top:12px}.layout{max-width:1400px;margin:auto;display:grid;grid-template-columns:254px minmax(0,1fr);min-height:100vh}.rail{border-right:1px solid var(--line);padding:44px 28px}.rail-inner{position:sticky;top:32px;max-height:calc(100vh - 64px);overflow-y:auto}.brand{font-size:12px;font-weight:750;letter-spacing:.16em}.brand span{color:var(--accent)}.edition{font-size:11px;letter-spacing:.12em;color:var(--muted);margin:5px 0 32px}.rail-label{font-size:10px;letter-spacing:.18em;color:var(--muted);margin:32px 0 12px}.rail nav a{display:block;color:var(--muted);font-size:12px;text-decoration:none;padding:7px 0;line-height:1.7}.rail nav a:hover{color:var(--accent)}.rail .writer-link{color:var(--ink);font-weight:700}.rail-foot{font-size:11px;color:var(--muted);margin-top:36px;padding-top:20px;border-top:1px solid var(--line)}.main{min-width:0;padding:48px 64px 64px}.eyebrow{font-size:11px;letter-spacing:.18em;color:var(--accent);font-weight:700;margin:0 0 20px}.hero h1{font-family:var(--serif);font-size:clamp(32px,4vw,47px);font-weight:650;line-height:1.55;letter-spacing:.025em;margin:0 0 20px}.hero .lead{font-size:15px;color:var(--muted);line-height:2;max-width:42em;margin:0 0 24px}.meta{display:flex;gap:8px;flex-wrap:wrap;margin:24px 0 32px}.tag{border:1px solid var(--line);padding:3px 10px;font-size:10px;letter-spacing:.04em;border-radius:30px}.rhythm{display:flex;gap:10px;flex-wrap:wrap;align-items:center;border-block:1px solid var(--line);padding:18px 0;font-size:12px;margin-bottom:38px}.rhythm b{font-weight:650}.rhythm span{color:var(--accent)}.panel{border:1px solid var(--line);background:var(--card);border-radius:12px;padding:28px;margin-bottom:42px;box-shadow:0 6px 25px #25362f04}.panel-title{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:10px}.panel h2{font-size:23px;margin:0;letter-spacing:.02em}.index{color:var(--accent);font-size:11px;letter-spacing:.12em}.help{color:var(--muted);font-size:12px;line-height:1.9;margin:0 0 22px}.fields{display:grid;grid-template-columns:1fr 1fr;gap:16px 18px}.field-wide{grid-column:1/-1}label{display:block;font-size:12px;font-weight:650;margin-bottom:7px}.optional{color:var(--muted);font-weight:400;font-size:10px;margin-left:6px}input,select,textarea{color:var(--ink);border:1px solid var(--line);background:#fff;width:100%;padding:10px 12px;min-height:43px;line-height:1.7}textarea{resize:vertical;min-height:170px;font-size:13px}input::placeholder,textarea::placeholder{color:#78837b;opacity:1}select{appearance:auto}.actions{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin-top:20px}button,.download{display:inline-flex;align-items:center;justify-content:center;gap:7px;padding:10px 16px;border:1px solid var(--line);background:var(--card);color:var(--ink);text-decoration:none;font-size:12px;font-weight:650;min-height:42px}button:hover,.download:hover{border-color:var(--ink)}button.primary{background:var(--ink);border-color:var(--ink);color:#fff}button.primary:hover{background:#3a4e43}button.quiet{padding-inline:10px;border:0;background:transparent;color:var(--accent);text-decoration:underline;text-underline-offset:4px}.status{font-size:12px;margin:12px 0 0;min-height:22px;color:var(--accent)}.result{margin-top:10px;padding-top:22px;border-top:1px solid var(--line)}.result textarea{min-height:330px;background:#f6f7f2;font-size:12px}.result-top{display:flex;align-items:center;justify-content:space-between;gap:10px}.count{font-size:10px;color:var(--muted)}.guide-label{display:flex;justify-content:space-between;align-items:center;gap:20px;margin-bottom:28px;border-bottom:1px solid var(--line);padding-bottom:18px}.guide-label p{margin:0;font-size:11px;letter-spacing:.15em;color:var(--muted)}.guide{font-size:14px;line-height:2.1}.guide>p:first-child{font-size:19px;line-height:1.9;color:var(--ink);margin-top:0}.guide>p:nth-child(2),.guide>p:nth-child(3){font-size:12px;color:var(--muted)}.guide h2{font-family:var(--serif);font-size:25px;line-height:1.65;margin:58px 0 22px;padding-top:16px;border-top:1px solid var(--line)}.guide h3{font-size:16px;line-height:1.9;margin:32px 0 14px}.guide p{margin:0 0 20px}.guide strong{font-weight:700}.guide ul,.guide ol{padding-left:1.5em;margin:18px 0 26px}.guide li{margin:7px 0}.guide li input[type=checkbox]{display:inline-block;width:14px;min-height:14px;margin:0 6px 0 0;accent-color:var(--accent)}.guide blockquote{margin:26px 0;padding:20px 24px;border-left:3px solid var(--accent);background:var(--wash);border-radius:0 6px 6px 0}.guide blockquote p:last-child{margin-bottom:0}.guide pre{background:#eaece4;border:1px solid #d5dace;border-radius:8px;padding:22px;font:12px/2 var(--sans);white-space:pre-wrap;overflow-wrap:anywhere;overflow-x:auto;margin:24px 0}.guide code{font-family:inherit}.table-wrap{overflow-x:auto;margin:24px 0 30px;outline-offset:3px}.guide table{border-collapse:collapse;width:100%;font-size:12px;line-height:1.9;text-align:left;min-width:540px}.guide th{background:#e9ede3;font-weight:700}.guide th,.guide td{padding:12px 14px;vertical-align:top;border-bottom:1px solid var(--line)}.guide td:first-child{font-weight:600;min-width:95px}.endnote{border-top:1px solid var(--line);margin-top:50px;padding-top:20px;display:flex;gap:15px;justify-content:space-between;flex-wrap:wrap;font-size:11px;color:var(--muted)}[hidden]{display:none!important}noscript p{padding:16px;background:#f8e7d8;border-radius:6px}::selection{background:#d6ddc9}
+@media(min-width:1450px){.layout{border-inline:1px solid var(--line)}}
+@media(max-width:1100px){.main{padding:40px 36px}.layout{grid-template-columns:220px minmax(0,1fr)}.rail{padding:40px 20px}.panel{padding:24px}}
+@media(max-width:760px){.layout{display:block}.rail{border-right:0;border-bottom:1px solid var(--line);padding:17px 22px}.rail-inner{position:static;max-height:none;overflow:visible;display:flex;justify-content:space-between;align-items:center;gap:15px}.edition,.rail-label,.rail nav,.rail-foot{display:none}.rail .brand{font-size:11px}.main{padding:30px 22px 40px}.hero h1{font-size:34px}.eyebrow{font-size:10px;margin-bottom:16px}.hero .lead{font-size:13px}.rhythm{font-size:11px;gap:8px;margin-bottom:28px}.panel{padding:20px;margin-bottom:30px}.panel h2{font-size:21px}.fields{grid-template-columns:1fr}.field-wide{grid-column:auto}.guide h2{font-size:22px;margin-top:42px}.guide{font-size:13px}.guide-label{align-items:flex-start}.guide-label .download{font-size:11px;padding:8px 10px;white-space:nowrap}.guide pre{padding:16px;font-size:11px}.meta{margin:22px 0}.actions button{flex-grow:1}.guide blockquote{padding:18px}.table-wrap{margin-right:-2px}.guide table{min-width:510px}.hero .lead br{display:none}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@media print{body{background:white;font-size:10pt;color:#111}.layout{display:block;max-width:none}.rail,.skip,.actions,.guide-label,.download,.writer-form,.help,.status,.result,.rhythm,.index{display:none!important}.main{padding:0}.hero h1{font-size:27pt}.hero .lead{font-size:10pt}.panel{display:none}.hero{margin-bottom:25px}.meta{margin:14px 0}.tag{font-size:8pt}.guide{font-size:10pt;line-height:1.8}.guide h2{font-size:17pt;margin-top:24px;break-after:avoid}.guide h3{font-size:12pt;break-after:avoid}.guide pre{font-size:9pt;white-space:pre-wrap;box-shadow:none}.guide table{font-size:9pt;min-width:0}.table-wrap{overflow:visible}.guide tr{break-inside:avoid}.guide blockquote{break-inside:avoid}.endnote{font-size:8pt}a{color:inherit}}
+</style>
+</head>
+<body>
+<a class="skip" href="#writer">依頼文をつくる欄へ</a>
+<div class="layout">
+<aside class="rail" aria-label="ページ案内">
+<div class="rail-inner">
+<div><div class="brand">ことばの型 <span>／</span> NOTE</div><p class="edition">WRITING TEMPLATE · 01</p></div>
+<nav aria-label="目次"><a class="writer-link" href="#writer">まずは、自分の文章で使う ↗</a><p class="rail-label">このガイドの内容</p><div id="toc"><a href="#analysis">解析とテンプレート</a></div></nav>
+<p class="rail-foot">田中栄二さんの提供文から<br>回想・脱線・自分へのツッコミ<br><br>保存日 2026.10.29</p>
+</div>
+</aside>
+<main class="main" id="main">
+<header class="hero">
+<p class="eyebrow">BLOG WRITING / 田中栄二風</p>
+<h1>話を少し、<br>遠回りさせる。</h1>
+<p class="lead">ブログの書き方テンプレート。<br>回想と脱線、そして自分へのツッコミ。<br>元の文章を、誰かに話しかけるような一篇に。</p>
+<div class="meta"><span class="tag">原文からの解析</span><span class="tag">繰り返し使える依頼文</span><span class="tag">MD / HTML</span></div>
+<div class="rhythm" aria-label="文章の基本的な流れ"><b>書く理由</b><span>→</span><b>回想</b><span>→</span><b>脱線とツッコミ</b><span>→</span><b>元の場面へ</b></div>
+</header>
+<section class="panel" id="writer" aria-labelledby="writer-title">
+<div class="panel-title"><h2 id="writer-title">自分の文章で使う</h2><span class="index">TRY IT</span></div>
+<p class="help">文章やメモを入れると、この型での書き換えを頼む依頼文を作れます。<br>コピーしてCodexに送ってください。入力内容はこのページ内で処理します。</p>
+<noscript><p>入力から依頼文を作るにはJavaScriptを有効にしてください。下の「6. コピペ用の依頼文」はそのまま使えます。</p></noscript>
+<form id="writer-form" class="writer-form">
+<div class="fields">
+<div class="field-wide"><label for="material">元の文章・出来事のメモ</label><textarea id="material" name="material" required placeholder="ここに文章や箇条書きを貼り付けてください。&#10;例：久しぶりに友人と会った日のこと、初めて挑戦したこと、仕事のちょっとした出来事。"></textarea></div>
+<div><label for="length">希望の長さ</label><select id="length"><option value="800〜1,200字程度">標準 · 800〜1,200字</option><option value="400〜600字程度">短め · 400〜600字</option><option value="1,500〜2,000字程度。素材の量を優先する">長め · 1,500〜2,000字</option><option value="元の文章の長さに合わせる">元の文章に合わせる</option></select></div>
+<div><label for="humor">笑いの強さ</label><select id="humor"><option value="標準。小さな自慢と訂正を一組">標準 · 自慢とツッコミを一組</option><option value="控えめ。自分への小さなツッコミを一つ">控えめ · 軽く一言</option><option value="多め。比喩を一つ使って後半で回収する">多め · 比喩をあとで回収</option></select></div>
+<div class="field-wide"><label for="keep">残したい言葉・伝えたい気持ち<span class="optional">任意</span></label><input id="keep" placeholder="例：「また会おう」という言葉、うれしかった気持ち"></div>
+<div class="field-wide"><label for="fiction">素材の扱い</label><select id="fiction"><option value="事実を変えない。元にない体験・感情・会話を実話として追加しない">事実を保って書き換える</option><option value="架空の話として創作してよい。冒頭に創作例であることを明記する">架空の話として創作する</option></select></div>
+</div>
+<div class="actions"><button class="primary" type="submit">依頼文をつくる <span aria-hidden="true">↗</span></button><button class="quiet" type="button" id="example">例文を入れる</button></div>
+</form>
+<p class="status" id="status" role="status" aria-live="polite"></p>
+<div class="result" id="result" hidden>
+<div class="result-top"><label for="prompt-output">Codexに送る依頼文</label><span class="count" id="count"></span></div>
+<textarea id="prompt-output" readonly spellcheck="false"></textarea>
+<div class="actions"><button class="primary" type="button" id="copy-prompt">依頼文をコピー</button><button type="button" id="save-prompt">TXTで保存</button></div>
+</div>
+</section>
+<section id="analysis" aria-label="解析と再利用のガイド">
+<div class="guide-label"><p>ANALYSIS & REUSABLE GUIDE</p><button class="download" id="download-md" type="button">ガイドをMDで保存 ↓</button></div>
+<article class="guide"><p><strong>回想・脱線・自分へのツッコミで、素材を会話のようなブログにする。</strong></p>
+<p>保存日：2026年10月29日／参照：田中栄二さんのブログ「とりあえずブログに頼ろうかと」より、ユーザー提供の文章。</p>
+<p>参照記事は「この度のリサイタルが正式にエモかった件」（2024年2月8日）。今回確認できる範囲は、冒頭から1991年の授賞式でキーボーディストとベーシストが舞台上にいる場面まで。このガイドは、その抜粋をもとにした分析と、別の題材で使うための執筆設計です。</p>
+<h2>1. すぐに使う</h2>
+<p>保存した執筆スキルの名前は <strong>tanaka-eiji-blog</strong> です。呼び出すときは、次の依頼に元の文章を続けてください。</p>
+<pre><code class="language-text">$tanaka-eiji-blog
+次の文章を、このテンプレートでブログに書き換えて。
+事実は変えず、笑いは控えめ。800字くらい。
+
+【元の文章】
+ここに文章や箇条書きを貼る。
+</code></pre>
+<p>スキルを使わない場合も、「6. コピペ用の依頼文」を使えます。完成した文章のほか、出来事のメモや箇条書きも材料にできます。題材だけで創作してほしい場合は、その旨を指定します。</p>
+<h2>2. 原文から確認できる構成</h2>
+<p>この抜粋の流れは、<strong>現在の気持ち → 書く理由 → 前置き → 過去の一点 → 小さな自慢 → 脱線 → 自分で訂正 → 場面へ戻る</strong>、です。中心にあるのは、話し手が自分の語りに合いの手を入れることです。</p>
+<table>
+<thead>
+<tr>
+<th>段階</th>
+<th>原文での働き</th>
+<th>別の題材に置き換えるなら</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>現在の気持ち</td>
+<td>ツアーに参加し、あまりにも感動したと先に告げる</td>
+<td>何が心に残っているのかを、最初に一つ置く</td>
+</tr>
+<tr>
+<td>書く理由</td>
+<td>気持ちを伝えるため、久々にブログを更新したと説明する</td>
+<td>「なぜ今これを書くのか」を語り手自身の言葉で添える</td>
+</tr>
+<tr>
+<td>前置き</td>
+<td>長さ・関心の薄さ・フィクションへの予告を重ねる</td>
+<td>「少し昔の話になります」など、話の助走をつける</td>
+</tr>
+<tr>
+<td>過去の一点</td>
+<td>1991年、札幌、YAMAHA第二ホール、18歳で場面を定める</td>
+<td>素材にある日時・場所・年齢など、具体的な手掛かりを使う</td>
+</tr>
+<tr>
+<td>小さな自慢</td>
+<td>受賞したことから「超優秀な生徒」へ話を膨らませる</td>
+<td>小さな成果に対する、自分の評価だけを少し大きくする</td>
+</tr>
+<tr>
+<td>脱線</td>
+<td>受賞と音楽教室を結びつけて、不正の疑いという大きな話に飛ぶ</td>
+<td>自分の見栄や勘違いを、会議・審査・表彰などに例える</td>
+</tr>
+<tr>
+<td>自分で訂正</td>
+<td>「いや、まあ」で自分の憶測をすぐに引き戻す</td>
+<td>読者がツッコむ前に、自分で話の大きさを調整する</td>
+</tr>
+<tr>
+<td>場面への復帰</td>
+<td>「で、」から受賞式の舞台上に視点を戻す</td>
+<td>脱線したあとの一文で、元の場面を具体的に再開する</td>
+</tr>
+</tbody></table>
+<p>原文の「33年前」は、記事が書かれた2024年から1991年を振り返った表現です。別の記事では、執筆時点に合った年数にするか、西暦で書きます。</p>
+<h2>3. 語り口を作る七つの仕組み</h2>
+<h3>① 丁寧な語尾の中に、考えながら話す声を残す</h3>
+<p>基本はです・ます調ですが、「なんというか」「私的には」「なんか」などを挟みます。出来事を報告する文と、その場で言葉を探す文が交互に現れるため、読者に直接話している感覚になります。</p>
+<p>書き換えるときは、各段落に同じ口癖を足すのではなく、言いよどむ場所や話題が変わる場所にだけ使います。「〜わけですが」「〜んですね」「〜でして」も連続させず、普通の「〜でした」と混ぜます。</p>
+<h3>② 長い助走のあとに、短い着地を置く</h3>
+<p>前置きは「〜ますし」「〜ますし」「〜ので」と続きます。その一方で、「私、大学1年、18歳の時。」のように、情報を短い独立段落で置きます。</p>
+<p>長い文では考えが少しずつ膨らみ、短い文では読者の視線が止まります。すべての文を細切れにするより、長短の差を残した方が呼吸が生まれます。</p>
+<h3>③ 空行で間を作る</h3>
+<p>基本は1〜2文を一段落にし、段落間に空行を置きます。短いツッコミや年齢の提示は独立させます。原文を貼り付けた際の連続スペース数は、ブログ画面の正確な余白量とは扱いません。</p>
+<p>Markdownでは空行、HTMLでは段落の余白で表します。文中の読点ごとに改行する必要はありません。</p>
+<h3>④ 自慢を膨らませ、自分で穴を開ける</h3>
+<p>受賞という事実のあとで、語り手が自分を「超優秀」と評価します。その直後に受賞の理由を疑い、さらにその疑いを自分で取り消します。</p>
+<p>この動きは、<strong>小さな事実 → 大きな自己評価 → 自分への疑い → 即訂正</strong>に置き換えられます。「10分早く着いた」なら、「それだけで信用ある大人になった気がした」まで膨らませ、「まだ何もしていない」と戻す、という具合です。</p>
+<h3>⑤ 小さな出来事に、大げさな言葉を当てる</h3>
+<p>原文では、アマチュアコンテストの話に週刊誌や癒着などの語彙が混ざります。出来事の規模と言葉の規模の差が笑いになります。</p>
+<p>別の題材では、その語彙そのものを持ち込む必要はありません。会議、国の事業、審査委員会、業務報告など、題材に合う比喩を選べます。実在の誰かへの事実らしい非難を足すより、自分の評価や思い込みを笑いの対象にすると使いやすくなります。</p>
+<h3>⑥ 脱線には、戻る場所を用意する</h3>
+<p>原文は音楽教室から不正の話へ横道に入ったあと、「で、」を使って授賞式へ戻ります。脱線が長引いても、元の話がどこにあったかを読者が見失いません。</p>
+<p>下書きでは先に「戻る場面」を決め、その直前に短い寄り道を挟みます。目安は一つの話題で一回。これは執筆用の目安であり、原文全体を数えた統計ではありません。</p>
+<h3>⑦ 感情を予告し、理由の説明を後ろに送る</h3>
+<p>冒頭では感動したことが繰り返されますが、その核心はまだ明かされません。読者は「そこまで言うなら何があったのか」と、過去の話を聞く準備をします。</p>
+<p>別の文章でも、冒頭に気持ちを一つ置き、その理由になる出来事を後から見せられます。ただし、今回の抜粋だけでは記事の結末や感動の回収方法までは確認できません。</p>
+<h2>4. 別の題材に移す設計図</h2>
+<p>素材から最初に拾うのは、<strong>動かせない事実・心に残ったこと・小さな具体場面・自分で笑える点</strong>の四つです。四つすべてがそろわなければ、あるものから組み立てます。</p>
+<table>
+<thead>
+<tr>
+<th>ブロック</th>
+<th>書くこと</th>
+<th>素材が少ないとき</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>入口</td>
+<td>出来事と、今それを書く理由</td>
+<td>現在の気持ちが不明なら、出来事から始める</td>
+</tr>
+<tr>
+<td>助走</td>
+<td>少し昔の話や細かな話に入る予告</td>
+<td>一文に縮める。内容のない前置きを増やさない</td>
+</tr>
+<tr>
+<td>回想</td>
+<td>元の文章にある日時・場所・人物・行動</td>
+<td>年号や年齢を作らず、「その日」などでつなぐ</td>
+</tr>
+<tr>
+<td>笑い</td>
+<td>自分の小さな見栄を膨らませ、自分で訂正する</td>
+<td>一か所だけでよい。感情を指定されていなければ、軽い所感にとどめる</td>
+</tr>
+<tr>
+<td>復帰</td>
+<td>本当にあった行動や会話に戻る</td>
+<td>具体的な出来事を一つ使う</td>
+</tr>
+<tr>
+<td>着地</td>
+<td>元の文章にある感情を短く置く</td>
+<td>報告や気づきで終えてもよい</td>
+</tr>
+<tr>
+<td>締め</td>
+<td>先の冗談を軽く拾う、次への一言を添える</td>
+<td>無理にオチを作らず、自然に止める</td>
+</tr>
+</tbody></table>
+<p>「小さな場面 → 短い感情 → 照れ隠し」という後半の流れ、長い比喩の回収、決まった締め言葉は、前回の会話で整理した応用案です。今回の抜粋で確認した構成とは区別し、題材に合う場合に使います。「急だな。」「あっ。」や特定の締め文句も必須にはしません。</p>
+<h3>分量と濃さ</h3>
+<ul>
+<li><strong>短文・400〜600字程度：</strong> 入口、具体場面、軽いツッコミ、着地に絞る。</li>
+<li><strong>標準・800〜1,200字程度：</strong> 前置きと回想を加え、脱線を一回挟む。</li>
+<li><strong>長文・1,500字以上：</strong> 回想を広げるだけの素材がある場合に使う。比喩や呼び戻しを加えても、事実の水増しはしない。</li>
+<li><strong>笑い控えめ：</strong> 自分への小さなツッコミを一つ。前置きは短く。</li>
+<li><strong>笑い標準：</strong> 小さな自慢と訂正を一組。脱線は短く。</li>
+<li><strong>笑い多め：</strong> 同じ比喩を後半でも回収する。口癖の数だけを増やさない。</li>
+</ul>
+<h2>5. 穴埋めの骨組み</h2>
+<p>以下は文章の機能を確認するための骨組みです。毎回同じ文句を並べる必要はありません。</p>
+<pre><code class="language-text">【題名：出来事に少し大げさな評価を付ける】
+
+【最近の出来事】がありました。
+それで、【心に残ったこと】を少し書いておこうと思ったんです。
+
+【昔の話・細かな話に入る短い前置き】。
+
+【日時や場所など、わかっている手掛かり】。
+【そのときの自分や人物の行動】。
+
+【小さな事実を、大げさに自己評価する】。
+
+【短い自分へのツッコミ】。
+
+【題材に合う短い寄り道】。
+【言いすぎた自分を引き戻す一文】。
+
+【本筋の具体的な行動や会話に戻る】。
+
+【素材にある感情や気づきを、短く】。
+
+【先の冗談を軽く拾う、または題材に合う締め】。
+</code></pre>
+<p>「多少フィクションが入ります」と宣言するだけで事実を作り足すことはしません。実話の書き換えでは、人物・年齢・日付・発言・出来事を元の文章から引き継ぎます。創作する場合は、依頼の段階で創作と指定します。</p>
+<h2>6. コピペ用の依頼文</h2>
+<p>下の文章全体をコピーし、最後の入力欄を埋めて使います。</p>
+<pre><code class="language-text">以下の文章やメモを、会話のような日本語のブログに書き換えてください。
+使う型は、田中栄二さんの提供文から整理した「回想・脱線・自分へのツッコミ」の型です。
+
+【構成】
+出来事と書く理由から入り、必要なら短い前置きを置く。
+元の文章にある具体的な時間・場所・人物・行動へ進む。
+自分の小さな見栄を少し膨らませ、自分で訂正する笑いを入れる。
+脱線は短くし、元の場面に戻る一文を置く。
+最後は素材にある気持ちや気づきを短く書き、題材に合う一言で締める。
+短い文章では不要なブロックを省く。
+
+【語り口】
+です・ます調を基本に、「なんというか」「まあ」などを必要な箇所にだけ混ぜる。
+1〜2文ごとに空行を入れ、長めの説明と短いツッコミに差を付ける。
+比喩は題材に合わせる。使う場合は一つを最後まで扱う。
+大げさな自己評価と、その直後の冷静な訂正で笑いを作る。
+決まり文句や原文の固有の例えを毎回コピーしない。
+
+【素材の扱い】
+元の人物・日付・場所・数値・出来事・発言・結論を保つ。
+書かれていない体験、感情、会話を実際にあったこととして作らない。
+第三者の文章を、書き手本人の体験談に変えない。
+不明な情報は省くか一般化する。題材のみの場合は、実体験を装わず所感として書く。
+創作を指定された場合は、全体が架空の例だと分かるようにする。
+
+【出力】
+タイトルを一つ付け、本文を書いてください。
+本文に説明用の見出しや分析は付けず、ブログとして読める形にしてください。
+
+【元の文章・メモ】
+（ここに貼る）
+
+【希望字数】800〜1,200字程度
+【笑いの強さ】標準
+【残したい言葉・伝えたい気持ち】（任意）
+【創作の可否】事実を変えない
+</code></pre>
+<h2>7. 書き換え例</h2>
+<p>以下の素材と例文は、このガイドのために作った架空の例です。</p>
+<h3>入力する素材</h3>
+<blockquote>
+<p>先週の日曜日、札幌の喫茶店で高校時代の友人と10年ぶりに会った。私は10分早く着いた。友人は昔と同じアイスコーヒーを注文した。仕事の話をした。帰り際に「また会おう」と言われてうれしかった。</p>
+</blockquote>
+<h3>出力例 — 10分早く着いただけで、少し立派になった気がした件</h3>
+<p>先週の日曜日、札幌の喫茶店で、高校時代の友人と会いました。</p>
+<p>10年ぶりです。</p>
+<p>それで、帰り際の「また会おう」が、なんかうれしかったんですよね。今日はその話を少し。喫茶店に入るまでで終わらないようにはしたいと思っています。</p>
+<p>当日、私は待ち合わせの10分前に着きました。</p>
+<p>10年ぶりに会う友人に、まずは時間を守れる大人としての姿を見せる。ここに至るまでの成長を、到着時刻だけでお伝えしようという作戦です。</p>
+<p>到着しただけなのに、評価だけは高い。</p>
+<p>まあ、早く着いただけなんですが。人間としての成熟を10分単位で認定し始めると、いろいろややこしくなりますので、この審査はここで終了します。</p>
+<p>で、友人が注文したのはアイスコーヒーでした。昔と同じものです。</p>
+<p>仕事の話をして、帰り際に「また会おう」と言われました。</p>
+<p>うれしかったです。</p>
+<p>10年ぶりの話が、その一言で次の話にもつながる。まあ、それをうれしいと書くために、私はずいぶん手前の到着時刻から説明しているわけですが。</p>
+<p>次も10分前には着いておこうと思います。</p>
+<p>審査は終わっていますけどね。</p>
+<h3>何を変えたか</h3>
+<table>
+<thead>
+<tr>
+<th>保ったもの</th>
+<th>加えた書き方</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>先週の日曜日、札幌の喫茶店</td>
+<td>最初に場面を置く</td>
+</tr>
+<tr>
+<td>高校時代の友人、10年ぶり</td>
+<td>「10年ぶりです。」を独立させる</td>
+</tr>
+<tr>
+<td>自分が10分早く着いた</td>
+<td>到着時刻を「大人としての審査」に見立てる</td>
+</tr>
+<tr>
+<td>友人のアイスコーヒー、仕事の話</td>
+<td>脱線後に実際の出来事へ戻る</td>
+</tr>
+<tr>
+<td>「また会おう」と言われてうれしかった</td>
+<td>「うれしかったです。」と短く着地する</td>
+</tr>
+</tbody></table>
+<p>新しい登場人物や会話は加えず、語り手の大げさな評価と、その訂正で文体を作っています。実際に素材を渡して使う場合も、同じように事実と語り方を分けて考えます。</p>
+<h2>8. 仕上げのチェック</h2>
+<ul>
+<li><input disabled="" type="checkbox"> 元の文章にある人物・日時・場所・数値・結論が変わっていない</li>
+<li><input disabled="" type="checkbox"> 元にない会話や体験を、事実らしく追加していない</li>
+<li><input disabled="" type="checkbox"> 書き手の視点が変わっていない</li>
+<li><input disabled="" type="checkbox"> 冒頭に出来事と、書く理由や関心がある</li>
+<li><input disabled="" type="checkbox"> 具体的な場面に着くまでの前置きが長すぎない</li>
+<li><input disabled="" type="checkbox"> 長い文と短い文に差があり、段落間に空行がある</li>
+<li><input disabled="" type="checkbox"> 同じ口癖を繰り返しすぎていない</li>
+<li><input disabled="" type="checkbox"> 笑いがある場合、自分の見栄や思い込みに向いている</li>
+<li><input disabled="" type="checkbox"> 脱線した場合、元の場面へ戻っている</li>
+<li><input disabled="" type="checkbox"> 感動やオチを題材に無理に押し付けていない</li>
+<li><input disabled="" type="checkbox"> 締めが題材につながり、毎回同じ決まり文句になっていない</li>
+</ul>
+<h2>9. 保存と再利用</h2>
+<p>このMarkdownには、解析・設計図・穴埋め骨組み・コピペ用の依頼文・書き換え例をまとめています。同名のHTMLは、これらを読みやすく表示し、入力内容に合う依頼文を組み立てます。HTMLの「依頼文をコピー」でコピーした文章をCodexに送ると、本文の執筆を依頼できます。</p>
+<p>GitHubのmemoでの保存名は「ブログの書き方テンプレ_田中栄二風.md」と同名のHTMLです。従来の「田中英司」という表記は「田中栄二」に訂正しています。</p>
+</article>
+</section>
+<footer class="endnote"><span>ことばの型 ／ ブログの書き方テンプレ（田中栄二風）</span><span>LOCAL EDITION · 2026.10.29</span></footer>
+</main>
+</div>
+<script type="application/json" id="guide-data">{"markdown":"# ブログの書き方テンプレ（田中栄二風）\n\n**回想・脱線・自分へのツッコミで、素材を会話のようなブログにする。**\n\n保存日：2026年10月29日／参照：田中栄二さんのブログ「とりあえずブログに頼ろうかと」より、ユーザー提供の文章。\n\n参照記事は「この度のリサイタルが正式にエモかった件」（2024年2月8日）。今回確認できる範囲は、冒頭から1991年の授賞式でキーボーディストとベーシストが舞台上にいる場面まで。このガイドは、その抜粋をもとにした分析と、別の題材で使うための執筆設計です。\n\n## 1. すぐに使う\n\n保存した執筆スキルの名前は **tanaka-eiji-blog** です。呼び出すときは、次の依頼に元の文章を続けてください。\n\n```text\n$tanaka-eiji-blog\n次の文章を、このテンプレートでブログに書き換えて。\n事実は変えず、笑いは控えめ。800字くらい。\n\n【元の文章】\nここに文章や箇条書きを貼る。\n```\n\nスキルを使わない場合も、「6. コピペ用の依頼文」を使えます。完成した文章のほか、出来事のメモや箇条書きも材料にできます。題材だけで創作してほしい場合は、その旨を指定します。\n\n## 2. 原文から確認できる構成\n\nこの抜粋の流れは、**現在の気持ち → 書く理由 → 前置き → 過去の一点 → 小さな自慢 → 脱線 → 自分で訂正 → 場面へ戻る**、です。中心にあるのは、話し手が自分の語りに合いの手を入れることです。\n\n| 段階 | 原文での働き | 別の題材に置き換えるなら |\n| --- | --- | --- |\n| 現在の気持ち | ツアーに参加し、あまりにも感動したと先に告げる | 何が心に残っているのかを、最初に一つ置く |\n| 書く理由 | 気持ちを伝えるため、久々にブログを更新したと説明する | 「なぜ今これを書くのか」を語り手自身の言葉で添える |\n| 前置き | 長さ・関心の薄さ・フィクションへの予告を重ねる | 「少し昔の話になります」など、話の助走をつける |\n| 過去の一点 | 1991年、札幌、YAMAHA第二ホール、18歳で場面を定める | 素材にある日時・場所・年齢など、具体的な手掛かりを使う |\n| 小さな自慢 | 受賞したことから「超優秀な生徒」へ話を膨らませる | 小さな成果に対する、自分の評価だけを少し大きくする |\n| 脱線 | 受賞と音楽教室を結びつけて、不正の疑いという大きな話に飛ぶ | 自分の見栄や勘違いを、会議・審査・表彰などに例える |\n| 自分で訂正 | 「いや、まあ」で自分の憶測をすぐに引き戻す | 読者がツッコむ前に、自分で話の大きさを調整する |\n| 場面への復帰 | 「で、」から受賞式の舞台上に視点を戻す | 脱線したあとの一文で、元の場面を具体的に再開する |\n\n原文の「33年前」は、記事が書かれた2024年から1991年を振り返った表現です。別の記事では、執筆時点に合った年数にするか、西暦で書きます。\n\n## 3. 語り口を作る七つの仕組み\n\n### ① 丁寧な語尾の中に、考えながら話す声を残す\n\n基本はです・ます調ですが、「なんというか」「私的には」「なんか」などを挟みます。出来事を報告する文と、その場で言葉を探す文が交互に現れるため、読者に直接話している感覚になります。\n\n書き換えるときは、各段落に同じ口癖を足すのではなく、言いよどむ場所や話題が変わる場所にだけ使います。「〜わけですが」「〜んですね」「〜でして」も連続させず、普通の「〜でした」と混ぜます。\n\n### ② 長い助走のあとに、短い着地を置く\n\n前置きは「〜ますし」「〜ますし」「〜ので」と続きます。その一方で、「私、大学1年、18歳の時。」のように、情報を短い独立段落で置きます。\n\n長い文では考えが少しずつ膨らみ、短い文では読者の視線が止まります。すべての文を細切れにするより、長短の差を残した方が呼吸が生まれます。\n\n### ③ 空行で間を作る\n\n基本は1〜2文を一段落にし、段落間に空行を置きます。短いツッコミや年齢の提示は独立させます。原文を貼り付けた際の連続スペース数は、ブログ画面の正確な余白量とは扱いません。\n\nMarkdownでは空行、HTMLでは段落の余白で表します。文中の読点ごとに改行する必要はありません。\n\n### ④ 自慢を膨らませ、自分で穴を開ける\n\n受賞という事実のあとで、語り手が自分を「超優秀」と評価します。その直後に受賞の理由を疑い、さらにその疑いを自分で取り消します。\n\nこの動きは、**小さな事実 → 大きな自己評価 → 自分への疑い → 即訂正**に置き換えられます。「10分早く着いた」なら、「それだけで信用ある大人になった気がした」まで膨らませ、「まだ何もしていない」と戻す、という具合です。\n\n### ⑤ 小さな出来事に、大げさな言葉を当てる\n\n原文では、アマチュアコンテストの話に週刊誌や癒着などの語彙が混ざります。出来事の規模と言葉の規模の差が笑いになります。\n\n別の題材では、その語彙そのものを持ち込む必要はありません。会議、国の事業、審査委員会、業務報告など、題材に合う比喩を選べます。実在の誰かへの事実らしい非難を足すより、自分の評価や思い込みを笑いの対象にすると使いやすくなります。\n\n### ⑥ 脱線には、戻る場所を用意する\n\n原文は音楽教室から不正の話へ横道に入ったあと、「で、」を使って授賞式へ戻ります。脱線が長引いても、元の話がどこにあったかを読者が見失いません。\n\n下書きでは先に「戻る場面」を決め、その直前に短い寄り道を挟みます。目安は一つの話題で一回。これは執筆用の目安であり、原文全体を数えた統計ではありません。\n\n### ⑦ 感情を予告し、理由の説明を後ろに送る\n\n冒頭では感動したことが繰り返されますが、その核心はまだ明かされません。読者は「そこまで言うなら何があったのか」と、過去の話を聞く準備をします。\n\n別の文章でも、冒頭に気持ちを一つ置き、その理由になる出来事を後から見せられます。ただし、今回の抜粋だけでは記事の結末や感動の回収方法までは確認できません。\n\n## 4. 別の題材に移す設計図\n\n素材から最初に拾うのは、**動かせない事実・心に残ったこと・小さな具体場面・自分で笑える点**の四つです。四つすべてがそろわなければ、あるものから組み立てます。\n\n| ブロック | 書くこと | 素材が少ないとき |\n| --- | --- | --- |\n| 入口 | 出来事と、今それを書く理由 | 現在の気持ちが不明なら、出来事から始める |\n| 助走 | 少し昔の話や細かな話に入る予告 | 一文に縮める。内容のない前置きを増やさない |\n| 回想 | 元の文章にある日時・場所・人物・行動 | 年号や年齢を作らず、「その日」などでつなぐ |\n| 笑い | 自分の小さな見栄を膨らませ、自分で訂正する | 一か所だけでよい。感情を指定されていなければ、軽い所感にとどめる |\n| 復帰 | 本当にあった行動や会話に戻る | 具体的な出来事を一つ使う |\n| 着地 | 元の文章にある感情を短く置く | 報告や気づきで終えてもよい |\n| 締め | 先の冗談を軽く拾う、次への一言を添える | 無理にオチを作らず、自然に止める |\n\n「小さな場面 → 短い感情 → 照れ隠し」という後半の流れ、長い比喩の回収、決まった締め言葉は、前回の会話で整理した応用案です。今回の抜粋で確認した構成とは区別し、題材に合う場合に使います。「急だな。」「あっ。」や特定の締め文句も必須にはしません。\n\n### 分量と濃さ\n\n- **短文・400〜600字程度：** 入口、具体場面、軽いツッコミ、着地に絞る。\n- **標準・800〜1,200字程度：** 前置きと回想を加え、脱線を一回挟む。\n- **長文・1,500字以上：** 回想を広げるだけの素材がある場合に使う。比喩や呼び戻しを加えても、事実の水増しはしない。\n- **笑い控えめ：** 自分への小さなツッコミを一つ。前置きは短く。\n- **笑い標準：** 小さな自慢と訂正を一組。脱線は短く。\n- **笑い多め：** 同じ比喩を後半でも回収する。口癖の数だけを増やさない。\n\n## 5. 穴埋めの骨組み\n\n以下は文章の機能を確認するための骨組みです。毎回同じ文句を並べる必要はありません。\n\n```text\n【題名：出来事に少し大げさな評価を付ける】\n\n【最近の出来事】がありました。\nそれで、【心に残ったこと】を少し書いておこうと思ったんです。\n\n【昔の話・細かな話に入る短い前置き】。\n\n【日時や場所など、わかっている手掛かり】。\n【そのときの自分や人物の行動】。\n\n【小さな事実を、大げさに自己評価する】。\n\n【短い自分へのツッコミ】。\n\n【題材に合う短い寄り道】。\n【言いすぎた自分を引き戻す一文】。\n\n【本筋の具体的な行動や会話に戻る】。\n\n【素材にある感情や気づきを、短く】。\n\n【先の冗談を軽く拾う、または題材に合う締め】。\n```\n\n「多少フィクションが入ります」と宣言するだけで事実を作り足すことはしません。実話の書き換えでは、人物・年齢・日付・発言・出来事を元の文章から引き継ぎます。創作する場合は、依頼の段階で創作と指定します。\n\n## 6. コピペ用の依頼文\n\n下の文章全体をコピーし、最後の入力欄を埋めて使います。\n\n```text\n以下の文章やメモを、会話のような日本語のブログに書き換えてください。\n使う型は、田中栄二さんの提供文から整理した「回想・脱線・自分へのツッコミ」の型です。\n\n【構成】\n出来事と書く理由から入り、必要なら短い前置きを置く。\n元の文章にある具体的な時間・場所・人物・行動へ進む。\n自分の小さな見栄を少し膨らませ、自分で訂正する笑いを入れる。\n脱線は短くし、元の場面に戻る一文を置く。\n最後は素材にある気持ちや気づきを短く書き、題材に合う一言で締める。\n短い文章では不要なブロックを省く。\n\n【語り口】\nです・ます調を基本に、「なんというか」「まあ」などを必要な箇所にだけ混ぜる。\n1〜2文ごとに空行を入れ、長めの説明と短いツッコミに差を付ける。\n比喩は題材に合わせる。使う場合は一つを最後まで扱う。\n大げさな自己評価と、その直後の冷静な訂正で笑いを作る。\n決まり文句や原文の固有の例えを毎回コピーしない。\n\n【素材の扱い】\n元の人物・日付・場所・数値・出来事・発言・結論を保つ。\n書かれていない体験、感情、会話を実際にあったこととして作らない。\n第三者の文章を、書き手本人の体験談に変えない。\n不明な情報は省くか一般化する。題材のみの場合は、実体験を装わず所感として書く。\n創作を指定された場合は、全体が架空の例だと分かるようにする。\n\n【出力】\nタイトルを一つ付け、本文を書いてください。\n本文に説明用の見出しや分析は付けず、ブログとして読める形にしてください。\n\n【元の文章・メモ】\n（ここに貼る）\n\n【希望字数】800〜1,200字程度\n【笑いの強さ】標準\n【残したい言葉・伝えたい気持ち】（任意）\n【創作の可否】事実を変えない\n```\n\n## 7. 書き換え例\n\n以下の素材と例文は、このガイドのために作った架空の例です。\n\n### 入力する素材\n\n> 先週の日曜日、札幌の喫茶店で高校時代の友人と10年ぶりに会った。私は10分早く着いた。友人は昔と同じアイスコーヒーを注文した。仕事の話をした。帰り際に「また会おう」と言われてうれしかった。\n\n### 出力例 — 10分早く着いただけで、少し立派になった気がした件\n\n先週の日曜日、札幌の喫茶店で、高校時代の友人と会いました。\n\n10年ぶりです。\n\nそれで、帰り際の「また会おう」が、なんかうれしかったんですよね。今日はその話を少し。喫茶店に入るまでで終わらないようにはしたいと思っています。\n\n当日、私は待ち合わせの10分前に着きました。\n\n10年ぶりに会う友人に、まずは時間を守れる大人としての姿を見せる。ここに至るまでの成長を、到着時刻だけでお伝えしようという作戦です。\n\n到着しただけなのに、評価だけは高い。\n\nまあ、早く着いただけなんですが。人間としての成熟を10分単位で認定し始めると、いろいろややこしくなりますので、この審査はここで終了します。\n\nで、友人が注文したのはアイスコーヒーでした。昔と同じものです。\n\n仕事の話をして、帰り際に「また会おう」と言われました。\n\nうれしかったです。\n\n10年ぶりの話が、その一言で次の話にもつながる。まあ、それをうれしいと書くために、私はずいぶん手前の到着時刻から説明しているわけですが。\n\n次も10分前には着いておこうと思います。\n\n審査は終わっていますけどね。\n\n### 何を変えたか\n\n| 保ったもの | 加えた書き方 |\n| --- | --- |\n| 先週の日曜日、札幌の喫茶店 | 最初に場面を置く |\n| 高校時代の友人、10年ぶり | 「10年ぶりです。」を独立させる |\n| 自分が10分早く着いた | 到着時刻を「大人としての審査」に見立てる |\n| 友人のアイスコーヒー、仕事の話 | 脱線後に実際の出来事へ戻る |\n| 「また会おう」と言われてうれしかった | 「うれしかったです。」と短く着地する |\n\n新しい登場人物や会話は加えず、語り手の大げさな評価と、その訂正で文体を作っています。実際に素材を渡して使う場合も、同じように事実と語り方を分けて考えます。\n\n## 8. 仕上げのチェック\n\n- [ ] 元の文章にある人物・日時・場所・数値・結論が変わっていない\n- [ ] 元にない会話や体験を、事実らしく追加していない\n- [ ] 書き手の視点が変わっていない\n- [ ] 冒頭に出来事と、書く理由や関心がある\n- [ ] 具体的な場面に着くまでの前置きが長すぎない\n- [ ] 長い文と短い文に差があり、段落間に空行がある\n- [ ] 同じ口癖を繰り返しすぎていない\n- [ ] 笑いがある場合、自分の見栄や思い込みに向いている\n- [ ] 脱線した場合、元の場面へ戻っている\n- [ ] 感動やオチを題材に無理に押し付けていない\n- [ ] 締めが題材につながり、毎回同じ決まり文句になっていない\n\n## 9. 保存と再利用\n\nこのMarkdownには、解析・設計図・穴埋め骨組み・コピペ用の依頼文・書き換え例をまとめています。同名のHTMLは、これらを読みやすく表示し、入力内容に合う依頼文を組み立てます。HTMLの「依頼文をコピー」でコピーした文章をCodexに送ると、本文の執筆を依頼できます。\n\nGitHubのmemoでの保存名は「ブログの書き方テンプレ_田中栄二風.md」と同名のHTMLです。従来の「田中英司」という表記は「田中栄二」に訂正しています。\n","promptRules":"以下の文章やメモを、会話のような日本語のブログに書き換えてください。\n使う型は、田中栄二さんの提供文から整理した「回想・脱線・自分へのツッコミ」の型です。\n\n【構成】\n出来事と書く理由から入り、必要なら短い前置きを置く。\n元の文章にある具体的な時間・場所・人物・行動へ進む。\n自分の小さな見栄を少し膨らませ、自分で訂正する笑いを入れる。\n脱線は短くし、元の場面に戻る一文を置く。\n最後は素材にある気持ちや気づきを短く書き、題材に合う一言で締める。\n短い文章では不要なブロックを省く。\n\n【語り口】\nです・ます調を基本に、「なんというか」「まあ」などを必要な箇所にだけ混ぜる。\n1〜2文ごとに空行を入れ、長めの説明と短いツッコミに差を付ける。\n比喩は題材に合わせる。使う場合は一つを最後まで扱う。\n大げさな自己評価と、その直後の冷静な訂正で笑いを作る。\n決まり文句や原文の固有の例えを毎回コピーしない。\n\n【素材の扱い】\n元の人物・日付・場所・数値・出来事・発言・結論を保つ。\n書かれていない体験、感情、会話を実際にあったこととして作らない。\n第三者の文章を、書き手本人の体験談に変えない。\n不明な情報は省くか一般化する。題材のみの場合は、実体験を装わず所感として書く。\n創作を指定された場合は、全体が架空の例だと分かるようにする。\n\n【出力】\nタイトルを一つ付け、本文を書いてください。\n本文に説明用の見出しや分析は付けず、ブログとして読める形にしてください。","stem":"ブログの書き方テンプレ_田中栄二風"}</script>
+<script>
+(() => {
+  'use strict';
+  const data = JSON.parse(document.getElementById('guide-data').textContent);
+  const $ = id => document.getElementById(id);
+  const toc = $('toc');
+  toc.replaceChildren();
+  document.querySelectorAll('.guide h2').forEach((heading, i) => {
+    heading.id = 'guide-' + (i + 1);
+    const link = document.createElement('a');
+    link.href = '#' + heading.id;
+    link.textContent = heading.textContent;
+    toc.append(link);
+  });
+  document.querySelectorAll('.guide table').forEach(table => {
+    const wrapper = document.createElement('div');
+    wrapper.className = 'table-wrap';
+    wrapper.setAttribute('tabindex', '0');
+    wrapper.setAttribute('role', 'region');
+    wrapper.setAttribute('aria-label', '左右にスクロールできる比較表');
+    table.replaceWith(wrapper);
+    wrapper.append(table);
+  });
+  const notify = message => { $('status').textContent = message; };
+  const download = (text, name, type) => {
+    const blob = new Blob([text], { type });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = name;
+    document.body.append(a);
+    a.click();
+    a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+  };
+  $('writer-form').addEventListener('submit', event => {
+    event.preventDefault();
+    const material = $('material').value.trim();
+    if (!material) { $('material').focus(); notify('元の文章や出来事のメモを入力してください。'); return; }
+    const keep = $('keep').value.trim() || '特に指定なし。元の文章にある気持ちと結論を保つ。';
+    const output = data.promptRules + '\n\n【元の文章・メモ】\n' + material
+      + '\n\n【希望字数】' + $('length').value
+      + '\n【笑いの強さ】' + $('humor').value
+      + '\n【残したい言葉・伝えたい気持ち】' + keep
+      + '\n【創作の可否】' + $('fiction').value;
+    $('prompt-output').value = output;
+    $('count').textContent = Array.from(output).length.toLocaleString('ja-JP') + '文字';
+    $('result').hidden = false;
+    notify('依頼文ができました。コピーしてCodexに送ってください。');
+    $('result').scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth', block: 'nearest' });
+  });
+  $('writer-form').addEventListener('input', () => {
+    if (!$('result').hidden) {
+      $('result').hidden = true;
+      notify('内容を変更しました。「依頼文をつくる」で更新してください。');
+    }
+  });
+  $('example').addEventListener('click', () => {
+    if ($('material').value.trim()) {
+      notify('入力した内容を保つため、例文は挿入していません。空欄にしてから使えます。');
+      return;
+    }
+    $('material').value = '先週の日曜日、札幌の喫茶店で高校時代の友人と10年ぶりに会った。私は10分早く着いた。友人は昔と同じアイスコーヒーを注文した。仕事の話をした。帰り際に「また会おう」と言われてうれしかった。';
+    $('keep').value = '「また会おう」という言葉、うれしかった気持ち';
+    $('result').hidden = true;
+    notify('ガイドの架空の素材を入れました。「依頼文をつくる」で試せます。');
+    $('material').focus();
+  });
+  $('copy-prompt').addEventListener('click', async () => {
+    try {
+      if (!navigator.clipboard?.writeText) throw new Error('Clipboard unavailable');
+      await navigator.clipboard.writeText($('prompt-output').value);
+      notify('コピーしました。Codexに貼り付けて送信してください。');
+    } catch {
+      $('prompt-output').focus();
+      $('prompt-output').select();
+      let copied = false;
+      try { copied = document.execCommand('copy'); } catch {}
+      notify(copied ? 'コピーしました。Codexに貼り付けて送信してください。' : '依頼文を選択しました。⌘C または Ctrl+C でコピーしてください。');
+    }
+  });
+  $('save-prompt').addEventListener('click', () => download($('prompt-output').value, 'ブログ書き換えの依頼文.txt', 'text/plain;charset=utf-8'));
+  $('download-md').addEventListener('click', () => download(data.markdown, data.stem + '.md', 'text/markdown;charset=utf-8'));
+})();
+</script>
+</body>
+</html>
