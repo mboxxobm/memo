@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="title desc">
+<title id="title">天狗・狸・だるまの福の守り神（簡易デザイン）</title>
+<desc id="desc">赤い丸胴、長い天狗の鼻、狸の丸い耳と尻尾、白眉と白ひげ、金色の福字を持つキャラクター。</desc>
+<rect width="600" height="600" fill="#fffaf0"/>
+<ellipse cx="294" cy="544" rx="215" ry="18" fill="#6a4330" opacity=".13"/>
+<!-- 尻尾 -->
+<path d="M432 323 C523 254 597 355 551 452 C529 496 479 503 437 467" fill="#754d34" stroke="#3a2b26" stroke-width="12"/>
+<path d="M482 331 C567 332 562 425 501 454" fill="none" stroke="#c19064" stroke-width="20" stroke-linecap="round"/>
+<!-- 足 -->
+<ellipse cx="230" cy="500" rx="59" ry="37" fill="#6a4330" stroke="#3a2b26" stroke-width="10"/>
+<ellipse cx="368" cy="500" rx="59" ry="37" fill="#6a4330" stroke="#3a2b26" stroke-width="10"/>
+<!-- 耳 -->
+<circle cx="174" cy="161" r="64" fill="#895a3c" stroke="#3a2b26" stroke-width="12"/>
+<circle cx="174" cy="161" r="37" fill="#e9c99a"/>
+<circle cx="426" cy="161" r="64" fill="#895a3c" stroke="#3a2b26" stroke-width="12"/>
+<circle cx="426" cy="161" r="37" fill="#e9c99a"/>
+<!-- 本体 -->
+<path d="M300 122 C173 113 104 208 98 330 C94 455 164 520 298 525 C434 525 507 458 501 331 C496 203 427 123 300 122Z" fill="#c52e21" stroke="#4c2927" stroke-width="14"/>
+<path d="M155 379 C191 477 416 489 453 378" fill="none" stroke="#a7211b" stroke-width="20" opacity=".5"/>
+<!-- 手 -->
+<ellipse cx="118" cy="351" rx="43" ry="60" transform="rotate(-18 118 351)" fill="#6a4330" stroke="#3a2b26" stroke-width="9"/>
+<ellipse cx="482" cy="351" rx="43" ry="60" transform="rotate(18 482 351)" fill="#6a4330" stroke="#3a2b26" stroke-width="9"/>
+<!-- 頭襟 -->
+<path d="M253 99 L268 41 L341 41 L353 99 L300 117Z" fill="#2f2b30" stroke="#171718" stroke-width="9"/>
+<path d="M268 72 L341 72" stroke="#c59a45" stroke-width="10"/>
+<!-- 狸の目まわり -->
+<ellipse cx="226" cy="230" rx="69" ry="56" fill="#713c31"/>
+<ellipse cx="378" cy="230" rx="69" ry="56" fill="#713c31"/>
+<!-- 白眉 -->
+<path d="M162 190 Q214 159 265 192 Q213 187 170 210" fill="#f1e3cb" stroke="#d9c4a7" stroke-width="5"/>
+<path d="M337 192 Q387 159 441 189 L432 211 Q390 184 337 192" fill="#f1e3cb" stroke="#d9c4a7" stroke-width="5"/>
+<!-- 半目 -->
+<path d="M178 231 Q222 252 264 230" stroke="#f6e5bf" stroke-width="19" fill="none" stroke-linecap="round"/>
+<path d="M340 230 Q383 250 425 231" stroke="#f6e5bf" stroke-width="19" fill="none" stroke-linecap="round"/>
+<circle cx="226" cy="237" r="9" fill="#1d1c1b"/>
+<circle cx="377" cy="237" r="9" fill="#1d1c1b"/>
+<!-- 天狗の鼻 -->
+<path d="M295 224 C332 202 376 213 428 217 C471 218 469 253 441 263 C398 278 339 270 290 255Z" fill="#df3828" stroke="#742b21" stroke-width="9"/>
+<ellipse cx="432" cy="231" rx="12" ry="6" fill="#f88668" opacity=".7"/>
+<!-- 口ひげ -->
+<path d="M295 271 C259 255 233 269 206 298 Q247 298 297 291" fill="#f1e3cb" stroke="#d6c7b0" stroke-width="5"/>
+<path d="M302 271 C337 253 368 272 392 294 Q347 300 303 290" fill="#f1e3cb" stroke="#d6c7b0" stroke-width="5"/>
+<!-- 顎ひげ -->
+<path d="M272 302 Q299 354 326 302" fill="#f1e3cb" stroke="#d6c7b0" stroke-width="5"/>
+<!-- 腹の福 -->
+<circle cx="299" cy="408" r="87" fill="none" stroke="#c59a45" stroke-width="12" opacity=".9"/>
+<text x="300" y="449" text-anchor="middle" font-size="111" font-weight="800" font-family="serif" fill="#edc45d">福</text>
+</svg>
