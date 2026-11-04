@@ -1,0 +1,4 @@
+movie_id,title,year,language,source_type,source_url,source_status,raw_text_saved,rights_checked,analysis_status
+BTTF1,Back to the Future,1985,en,unofficial_dialogue_webpage,https://www.springfieldspringfield.co.uk/movie_script.php?movie=back-to-the-future,webpage_located,no,not_yet,not_started
+BTTF2,Back to the Future Part II,1989,en,unofficial_dialogue_webpage,https://www.springfieldspringfield.co.uk/movie_script.php?movie=back-to-the-future-part-ii,webpage_located,no,not_yet,not_started
+BTTF3,Back to the Future Part III,1990,en,unofficial_dialogue_webpage,https://www.springfieldspringfield.co.uk/movie_script.php?movie=back-to-the-future-part-iii,webpage_located,no,not_yet,not_started
